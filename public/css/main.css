@@ -2292,12 +2292,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/header-bg.jpg) center;
+  background: url(../img/header-bg.png) center;
   background-size: cover;
+  backdrop-filter: 8px;
 }
 
 .banner-area .overlay-bg {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
+  filter: blur(8px);
 }
 
 .banner-content {
